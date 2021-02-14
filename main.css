@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css2?family=Potta+One&display=swap");
+html, body, ul, ol {
+  padding: 0;
+  margin: 0;
+}
+
+.description-name {
+  text-align: center;
+  position: relative;
+  bottom: 210px;
+  color: white;
+  font-family: "Potta One", cursive;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, right top, from(#fff1c475), color-stop(#f7d28494), to(#fff1c475));
+  background: linear-gradient(90deg, #fff1c475, #f7d28494, #fff1c475);
+}
+
+.navbar-light .logo-brand {
+  width: 165px;
+  height: 100px;
+  position: relative;
+  bottom: 10px;
+}
+
+.navbar-light .logo-name {
+  border-radius: 0px;
+  font-family: "Potta One", cursive;
+  color: #fbb03b;
+  position: relative;
+  bottom: 25px;
+  right: 57px;
+}
+
+.navbar-light .navbar-collapse {
+  position: relative;
+}
+
+.navbar-light .navbar-collapse .navbar-nav .nav-item .nav-link {
+  background-color: #fbb03b;
+  margin: 5px;
+  padding: 50px 30px 15px 30px;
+  position: relative;
+  bottom: 30px;
+  font-size: 14px;
+  color: white;
+  border-radius: 10px;
+  font-family: "Potta One", cursive;
+}
+
+.navbar-light .navbar-collapse .navbar-nav .nav-item .dropdown-menu {
+  background-color: #fbb03b;
+  margin-top: -34px;
+  margin-left: 5px;
+}
+
+.navbar-light .navbar-collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
+  background-color: #d89934;
+  -webkit-transition: 0.7s all cubic-bezier(0, 0, 0.2, 1);
+  transition: 0.7s all cubic-bezier(0, 0, 0.2, 1);
+}
+
+.navbar-light .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+  background-color: white;
+  color: #fbb03b;
+  -webkit-transition: 0.7s all cubic-bezier(0, 0, 0.2, 1);
+  transition: 0.7s all cubic-bezier(0, 0, 0.2, 1);
+}
+
+.navbar-light .navbar-collapse .form-inline {
+  position: relative;
+  bottom: 20px;
+}
+
+.navbar-light .navbar-collapse .form-inline .btn {
+  border: 1px solid #fbb03b;
+  color: #fbb03b;
+}
+
+.navbar-light .navbar-collapse .form-inline .btn:hover {
+  background-color: #fbb03b;
+  color: white;
+}
+
+.carousel .carousel-indicators {
+  text-align: center;
+}
+
+.carousel .carousel-inner {
+  width: 90%;
+  border-radius: 20px;
+  margin-left: 5%;
+}
+
+.carousel .carousel-inner .carousel-item img {
+  border-radius: 20px;
+}
+
+.carousel .carousel-inner .carousel-item .carousel-caption {
+  background-color: rgba(0, 0, 0, 0.459);
+  padding: 50px;
+  border-radius: 20px;
+}
+
+.card-pizza {
+  width: 80%;
+  margin: 3% 10%;
+  background-color: #fbb03b;
+  border-radius: 20px;
+  font-family: "Potta One", cursive;
+}
+
+.card-pizza .card-deck {
+  padding: 2% 10%;
+}
+
+.card-pizza .card-deck .card {
+  border-radius: 20px;
+}
+
+.card-pizza .card-deck .card .card-img-top {
+  border-radius: 20px;
+}
+
+.card-pizza .card-deck .card:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#fb6959), color-stop(#ff651b8c), to(#fb6959));
+  background: linear-gradient(90deg, #fb6959, #ff651b8c, #fb6959);
+  color: white;
+  -webkit-box-shadow: 0px 0px 25px 3px #4a4a4adb;
+          box-shadow: 0px 0px 25px 3px #4a4a4adb;
+  -webkit-transition: 0.7s all cubic-bezier(0, 0, 0.2, 1);
+  transition: 0.7s all cubic-bezier(0, 0, 0.2, 1);
+}
+
+.card-pizza .card-deck .card-footer {
+  border-radius: 20px;
+}
+
+.all-circle {
+  width: 100%;
+  padding: 2% 10% 12% 6%;
+}
+
+.all-circle .circle {
+  width: 140px;
+  height: 140px;
+  border-radius: 46.66667px;
+}
+
+.all-circle .circle a img {
+  width: 250px;
+  height: 250px;
+  border-radius: 83.33333px;
+  -webkit-box-shadow: -7px 6px 20px 4px #101010cc;
+          box-shadow: -7px 6px 20px 4px #101010cc;
+}
+
+.all-circle .circle a img:hover {
+  opacity: 80%;
+  width: 270px;
+  height: 270px;
+  border-radius: 90px;
+  -webkit-transition: 0.7s all cubic-bezier(0, 0, 0.2, 1);
+  transition: 0.7s all cubic-bezier(0, 0, 0.2, 1);
+}
+
+.all-circle:hover .circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 66.66667px;
+  -webkit-transition: 0.7s all cubic-bezier(0, 0, 0.2, 1);
+  transition: 0.7s all cubic-bezier(0, 0, 0.2, 1);
+}
+
+@media (min-width: 200px) and (max-width: 672px) {
+  p {
+    font-size: 12px;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  .all-circle {
+    width: 100%;
+    padding: 2% 10% 12% 6%;
+  }
+  .all-circle .circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 23.33333px;
+  }
+  .all-circle .circle a img {
+    width: 100px;
+    height: 100px;
+    border-radius: 33.33333px;
+    -webkit-box-shadow: -7px 6px 20px 4px #101010cc;
+            box-shadow: -7px 6px 20px 4px #101010cc;
+  }
+  .all-circle .circle a img:hover {
+    opacity: 80%;
+    width: 130px;
+    height: 130px;
+    border-radius: 43.33333px;
+    -webkit-transition: 0.7s all cubic-bezier(0, 0, 0.2, 1);
+    transition: 0.7s all cubic-bezier(0, 0, 0.2, 1);
+  }
+  .all-circle:hover .circle {
+    width: 90px;
+    height: 90px;
+    border-radius: 30px;
+  }
+}
+
+@media (min-width: 672px) and (max-width: 800px) {
+  p {
+    font-size: 12px;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  .all-circle {
+    width: 100%;
+    padding: 2% 10% 12% 6%;
+  }
+  .all-circle .circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 33.33333px;
+  }
+  .all-circle .circle a img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    -webkit-box-shadow: -7px 6px 20px 4px #101010cc;
+            box-shadow: -7px 6px 20px 4px #101010cc;
+  }
+  .all-circle .circle a img:hover {
+    opacity: 80%;
+    width: 170px;
+    height: 170px;
+    border-radius: 56.66667px;
+    -webkit-transition: 0.7s all cubic-bezier(0, 0, 0.2, 1);
+    transition: 0.7s all cubic-bezier(0, 0, 0.2, 1);
+  }
+  .all-circle:hover .circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 40px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+  .all-circle {
+    width: 100%;
+    padding: 2% 10% 12% 2%;
+  }
+  .all-circle .circle {
+    width: 140px;
+    height: 140px;
+    border-radius: 46.66667px;
+  }
+  .all-circle .circle a img {
+    width: 180px;
+    height: 180px;
+    border-radius: 60px;
+    -webkit-box-shadow: -7px 6px 20px 4px #101010cc;
+            box-shadow: -7px 6px 20px 4px #101010cc;
+  }
+  .all-circle .circle a img:hover {
+    opacity: 80%;
+    width: 200px;
+    height: 200px;
+    border-radius: 66.66667px;
+    -webkit-transition: 0.7s all cubic-bezier(0, 0, 0.2, 1);
+    transition: 0.7s all cubic-bezier(0, 0, 0.2, 1);
+  }
+  .all-circle:hover .circle {
+    width: 160px;
+    height: 160px;
+    border-radius: 53.33333px;
+  }
+}
+
+.button {
+  padding: 10px 0px;
+}
+
+.button .btn {
+  padding: 10px 80px;
+  background-color: #fbb03b;
+  color: white;
+  border-radius: 10px;
+  font-family: "Potta One", cursive;
+}
+
+.button .btn:hover {
+  padding: 10px 80px;
+  background-color: #d89934;
+  -webkit-transition: 0.7s all cubic-bezier(0, 0, 0.2, 1);
+  transition: 0.7s all cubic-bezier(0, 0, 0.2, 1);
+  border-radius: 10px;
+  font-family: "Potta One", cursive;
+}
+
+footer .footer {
+  background-color: #1616169d;
+  border-radius: 20px;
+  font-family: "Potta One", cursive;
+  margin: 10px;
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */
